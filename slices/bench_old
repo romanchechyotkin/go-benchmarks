@@ -1,0 +1,14 @@
+goos: linux
+goarch: amd64
+pkg: benchmarks/slices
+cpu: 12th Gen Intel(R) Core(TM) i5-1235U
+BenchmarkCopySlice-12    	 8340078	       147.6 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 8449009	       139.2 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 7937266	       154.6 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 8264158	       151.1 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 7891900	       147.0 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 8275099	       143.7 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 7511898	       143.7 ns/op	     240 B/op	       4 allocs/op
+BenchmarkCopySlice-12    	 8017922	       163.7 ns/op	     240 B/op	       4 allocs/op
+PASS
+ok  	benchmarks/slices	10.850s
